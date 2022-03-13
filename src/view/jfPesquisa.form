@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="bgEstadoCivil">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="bgPagamento">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jSeparator2" min="-2" pref="228" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="150" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="btnRbEnviar" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnCB" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="234" pref="234" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel2" max="32767" attributes="0"/>
+                              <Component id="jcbLinguagens" max="32767" attributes="0"/>
+                              <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSeparator3" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="chkJava" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="chkPy" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="chkCobol" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="chkPHP" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel3" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jrbSolteiro" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jrbCasado" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jrbSeparado" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jrbDivorciado" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jrbUniaoEstavel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="btnRb" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="btnChk" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jSeparator1" min="-2" pref="1" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jrbBoleto" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jrbPayPal" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jrbPix" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jrbCartão" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jcbLinguagens" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="chkJava" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="chkPHP" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="chkPy" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="chkCobol" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="btnChk" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnCB" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jSeparator2" min="-2" pref="17" max="-2" attributes="0"/>
+                      <Component id="jSeparator3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="2" attributes="0">
+                      <Component id="jrbSolteiro" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jrbBoleto" alignment="2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="2" attributes="0">
+                      <Component id="jrbCartão" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jrbCasado" alignment="2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="2" attributes="0">
+                      <Component id="jrbPix" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jrbSeparado" alignment="2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="2" attributes="0">
+                      <Component id="jrbPayPal" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jrbDivorciado" alignment="2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="2" attributes="0">
+                      <Component id="btnRbEnviar" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnRb" alignment="2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <EmptySpace min="368" pref="368" max="-2" attributes="0"/>
+                  <Component id="jrbUniaoEstavel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="8" pref="8" max="-2" attributes="0"/>
+              </Group>
+              <Component id="jSeparator1" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Estado Civil?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="chkJava">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Java"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="chkPHP">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="PHP"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="chkPy">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Python"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="chkCobol">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cobol"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnChk">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enviar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnChkActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+          <Properties>
+            <Property name="orientation" type="int" value="1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Qual linguagem n&#xe3;o conhece?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jcbLinguagens">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="9">
+                <StringItem index="0" value="Selecione..."/>
+                <StringItem index="1" value="Cobol"/>
+                <StringItem index="2" value="Fortran"/>
+                <StringItem index="3" value="Assembler"/>
+                <StringItem index="4" value="C#"/>
+                <StringItem index="5" value="C++"/>
+                <StringItem index="6" value="R"/>
+                <StringItem index="7" value="Rust"/>
+                <StringItem index="8" value="Ruby"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCB">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enviar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCBActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator3">
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator2">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jrbSolteiro">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="bgEstadoCivil"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Solteiro(a)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jrbCasado">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="bgEstadoCivil"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Casado(a)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jrbSeparado">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="bgEstadoCivil"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Separado(a)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jrbDivorciado">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="bgEstadoCivil"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Divorciado(a)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Quais linguagem j&#xe1; programou?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jrbUniaoEstavel">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="bgEstadoCivil"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Uni&#xe3;o Est&#xe1;vel"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnRb">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enviar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRbActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Formas De Pagamento"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jrbBoleto">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="bgPagamento"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Boleto"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jrbCart&#xe3;o">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="bgPagamento"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cart&#xe3;o"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jrbPix">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="bgPagamento"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Pix"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jrbPayPal">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="bgPagamento"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="PayPal"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnRbEnviar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enviar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRbEnviarActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
